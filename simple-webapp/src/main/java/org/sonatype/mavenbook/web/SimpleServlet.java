@@ -9,7 +9,7 @@ public class SimpleServlet extends HttpServlet {
                       HttpServletResponse response)
         throws ServletException, IOException {
 	PrintWriter out = response.getWriter();
-	out.println( "SimpleServlet Executed zhouyao by 11:19" );
+	out.println( "SimpleServlet Executed zhouyao by 11:24" );
         out.flush();
         out.close();
     }
